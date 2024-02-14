@@ -1,0 +1,77 @@
+html {
+  background-color: rgb(172, 187, 187);
+}
+
+body {
+  margin: 0;
+  font-family: "Dekko";
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-color: rgb(87, 153, 21);
+  padding: 90px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* button */
+
+.flex {
+  display: flex;
+}
+
+.btn {
+  width: 40%;
+  text-align: center;
+  margin: 25px auto;
+  padding: 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#button {
+  background-color: aquamarine;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+#button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: rgb(22, 107, 79);
+  border: solid rgba(0, 0, 255, 0.349);
+}
+
+.centre {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box {
+  text-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding-bottom: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 30px;
+  background-color: gray;
+  transition: 0.3 ease;
+}
+
+#fb {
+  color: red;
+  padding-top: 20px;
+}
+#ide {
+  color: blue;
+}
+.box:hover {
+  border: 2px solid blue;
+}
+
+#flexi:hover {
+  border: 2px solid red
+}

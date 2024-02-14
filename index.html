@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front End Layouts</title>
+  <!-- importing bootstrap -->
+  <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+  <href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- wrap page in container for page -->
+  <div class="container">
+    <!-- banner element -->
+    <div class="banner">
+      <h1>Lets Explore The Basis of Front End Tools and Concepts</h1>
+      <h2>Feel free to use dev tools to inspect and learn about some of the cool
+        things we can do with the very basics of HTML and CSS !!
+      </h2>
+    </div>
+    <div class="flex">
+      <div class="btn">
+        <h2>Here we have a simple button</h2>
+        <button>CLICK ME!!</button>
+        <p>It is rather boring we lets click him</p>
+        <p>to spice things up a little</p>
+      </div>
+      <div class="btn">
+        <h2>Thats much better !!</h2>
+        <button id="button">CLICK ME!!</button>
+        <p>We added some box-shadow, border-radius and hover</p>
+        <p>effects to make it a bit more presentable to the user :)</p>
+      </div>
+    </div>
+    <h2 class="centre">Lets learn about flex boxes</h2>
+    <div class="flex" id="flexi">
+      <div class="box">
+        <h2>How they work?</h2>
+        <p>Flex boxes are generally used to align div's</p>
+        <p>next to each other horizotally instead of the default</p>
+        <p>vertical alignment.</p>
+      </div>
+      <div class="box">
+        <h2>Layout</h2>
+        <p>What we want to do is wrap all the containers/boxes</p>
+        <p>which we want to be affected in the designated flexbox div.</p>
+        <p>hover over the boxes to see the layout (refer to the key).</p>
+      </div>
+      <div class="box">
+        <h2>Key</h2>
+        <h3 id="fb">Flex Box</h3>
+        <h3 id="ide">Inner div elements</h3>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
