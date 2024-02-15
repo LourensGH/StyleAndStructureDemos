@@ -1,5 +1,6 @@
 html {
   background-color: rgb(172, 187, 187);
+  height: 3000px;
 }
 
 body {
@@ -81,4 +82,17 @@ a {
 
 #flexi:hover {
   border: 2px solid red
+}
+
+/* navbar */
+
+.nav {
+  background-color: black;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+}
+
+.nav-el {
+  padding: 30px;
 }
